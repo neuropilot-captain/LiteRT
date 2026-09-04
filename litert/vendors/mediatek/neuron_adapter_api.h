@@ -87,7 +87,7 @@ typedef enum {
 
 const NeuronRuntimeVersion kNeuronFeatureMinVersion[NEURON_FEATURE_COUNT] = {
     {8, 2, 24},  // NEURON_FEATURE_UNKNOWN_OP
-    {8, 0, 0},   // NEURON_FEATURE_EXT_QUANT4_INT32_PER_CHANNEL
+    {8, 2, 28},   // NEURON_FEATURE_EXT_QUANT4_INT32_PER_CHANNEL
 };
 
 using NeuronModelPtr = std::unique_ptr<NeuronModel, void (*)(NeuronModel*)>;
